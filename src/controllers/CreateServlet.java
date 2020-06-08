@@ -38,7 +38,6 @@ public class CreateServlet extends HttpServlet {
 
             Task m = new Task();
 
-
             Timestamp currentTime = new Timestamp(System.currentTimeMillis());
             m.setCreated_at(currentTime);
             m.setUpdated_at(currentTime);
